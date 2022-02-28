@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700,800");
+
+:root {
+    --black-2: rgba(201, 201, 201, 0.431);
+    --black: rgba(0,0,0,1);
+    --white: rgba(255, 255, 255, 1);
+    --font-size-s: 14px;
+    --font-size-m: 17px;
+    --font-size-l: 20px;
+    --font-size-x1: 40px;
+    --font-family-karla: "Karla";
+}
+
+.valign-text-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    -webkit-text-stroke: 1px var(--white);
+    color: var(--black);
+    font-family: var(--font-family-karla);
+    font-size: var(--font-size-x1);
+    font-weight:800;
+    height: 35px;
+    letter-spacing:  0;
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+    width: 242px;
+}
+
