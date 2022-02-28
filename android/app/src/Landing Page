@@ -1,0 +1,58 @@
+import React from "react";
+
+function App(){
+    return (
+        <LandingPage
+            title="JAR OF JOY"
+            storeABitOfJoyEveryday="Store a bit of joy everyday"
+            enterUsername="Enter username..."
+            enterPassword="Enter password..."
+            continueAsGuest="Continue as guest"
+            />
+    );
+}
+
+export default App;
+
+function LandingPage(props){
+    const { title,
+    storeABitOfJoyEveryday, enterUsername, enterPassword, continueAsGuest} = props;
+
+    return(
+        <div className="container-center-horizontal">
+            <div className="landing-page screen">
+                <div className="overlap-group-container">
+                    <div className="overlap-group">
+                        <img className="star-1" src="star-1.svg" />
+                        <img className="star-3" src="star-2.svg" />
+                        <div className="ellipse-61"></div>
+                        <div className="ellipse-58"></div>
+                        <div className="ellipse-59"></div>
+                        <div className="ellipse-60"></div>
+                        <img className="component-4" src="component-4.svg"/>
+                    </div>
+                    <div className="overlap-group1">
+                        <img className="star-4" src="star-2.svg" />
+                    </div>
+                </div>
+                <h1 className="title valign-text-middle"> {title} </h1>
+                <div className="store-a-bit-of-joy-everyday valign-text-middle">
+                    {storeABitOfJoyEveryday}
+                </div>
+                <div className="overlap-group3">
+                    <div className="enter-username valign-text-middle karla-bold-black-20px">
+                        {enterUsername}
+                    </div>
+                </div>
+                <div className="overlap-group2">
+                    <div className="enter-password valign-text-middle karla-bold-black-20px">
+                        {enterPassword}
+                    </div>
+                </div>
+                <div className="continue-as-guest valign-text-middle">
+                    {continueAsGuest}
+                </div>
+            </div>
+        </div>
+    );
+}
