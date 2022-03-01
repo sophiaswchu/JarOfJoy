@@ -23,16 +23,13 @@ function LandingPage(props){
             <div className="landing-page screen">
                 <div className="overlap-group-container">
                     <div className="overlap-group">
-                        <img className="star-1" src="star-1.svg" />
-                        <img className="star-3" src="star-2.svg" />
+                        <img className="star-1" src="star.png" />
+                        <img className="star-3" src="star-2.png" />
                         <div className="ellipse-61"></div>
                         <div className="ellipse-58"></div>
                         <div className="ellipse-59"></div>
                         <div className="ellipse-60"></div>
-                        <img className="component-4" src="component-4.svg"/>
-                    </div>
-                    <div className="overlap-group1">
-                        <img className="star-4" src="star-2.svg" />
+                        <img className="component-4" src="jar.png"/>
                     </div>
                 </div>
                 <h1 className="title valign-text-middle"> {title} </h1>
